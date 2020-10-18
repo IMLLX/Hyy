@@ -21,11 +21,25 @@
   position: absolute;
   overflow: hidden;
 }
+.leaf.color0 {
+  background: #fae6a0;
+}
+.leaf.color1 {
+  background: #ffe184;
+}
+.leaf.color2 {
+  background: #174c4f;
+}
+.leaf.color3 {
+  background: #f58653;
+}
+.leaf.color4 {
+  background: #207178;
+}
 .l0 {
   opacity: 0;
   transform: scale(0);
   border-radius: 0 100%;
-  background: linear-gradient(-135deg, #A3C4BB 49%, transparent 45%, transparent 51%, #A3C4BB 50%);
   transition: all 0.3s;
   transition-delay: 0s;
 }
@@ -49,7 +63,6 @@
   opacity: 0;
   transform: scale(0);
   border-radius: 0 100%;
-  background: linear-gradient(-135deg, #A3C4BB 49%, transparent 45%, transparent 51%, #A3C4BB 50%);
   transition: all 0.3s;
   transition-delay: 0.1s;
 }
@@ -73,7 +86,6 @@
   opacity: 0;
   transform: scale(0);
   border-radius: 0 100%;
-  background: linear-gradient(-135deg, #A3C4BB 49%, transparent 45%, transparent 51%, #A3C4BB 50%);
   transition: all 0.3s;
   transition-delay: 0.2s;
 }
@@ -97,7 +109,6 @@
   opacity: 0;
   transform: scale(0);
   border-radius: 0 100%;
-  background: linear-gradient(-135deg, #A3C4BB 49%, transparent 45%, transparent 51%, #A3C4BB 50%);
   transition: all 0.3s;
   transition-delay: 0.3s;
 }
@@ -121,7 +132,6 @@
   opacity: 0;
   transform: scale(0);
   border-radius: 0 100%;
-  background: linear-gradient(-135deg, #A3C4BB 49%, transparent 45%, transparent 51%, #A3C4BB 50%);
   transition: all 0.3s;
   transition-delay: 0.4s;
 }

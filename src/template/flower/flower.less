@@ -28,7 +28,21 @@
     height  : @leaf-size;
     position: absolute;
     overflow: hidden;
-
+    &.color0{
+        background: rgb(250, 230, 160);
+    }
+    &.color1{
+        background: rgb(255,225,132);
+    }
+    &.color2{
+        background: rgb(23,76,79);
+    }
+    &.color3{
+        background: rgb(245,134,83);
+    }
+    &.color4{
+        background: rgb(32,113,120);
+    }
 }
 
 .CreateLeaf(0);
@@ -36,9 +50,8 @@
 .CreateLeaf(@i) when(@i<@page-num) {
     .l@{i} {
         opacity         : 0;
-        transform       : scale(0);
+        transform: scale(0);
         border-radius   : 0 100%;
-        background      : linear-gradient(-135deg, #A3C4BB 49%, transparent 45%, transparent 51%, #A3C4BB 50%);
         transition      : all .3s;
         transition-delay: @i*0.1s;
 
