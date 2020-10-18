@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: calc(100%);
+  margin: 0;
+  background: #ffedf5;
+  overflow-x: hidden;
+}
+.noscroll {
+  overflow-y: hidden;
+}
+a,
+span,
+p {
+  text-decoration: none;
+  color: #000;
+}
+header {
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: fixed;
+  width: calc(100%);
+  height: 60px;
+  border-radius: 5px;
+  background: #FDCBE6;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  header {
+    overflow: auto;
+  }
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+ul li {
+  float: left;
+}
+.menu {
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  line-height: 60px;
+  text-align: center;
+}
+.menu > li {
+  position: relative;
+}
+.menu .menu-item {
+  padding: 0 30px;
+  display: block;
+}
+.menu .menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.137);
+  border-bottom: #ffffff solid;
+}
+#flower {
+  height: calc(100vh);
+  margin: 0 auto;
+  width: 100%;
+}
+.main-container {
+  height: calc(100vh);
+}
+#Card-Page {
+  background: #ffa0b1;
+  width: 100%;
+  height: 100%;
+}
+#Letter-Page {
+  width: 100%;
+  height: 100%;
+  background-color: #7c686a;
+}

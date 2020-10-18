@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh);
+}
+.container {
+  display: flex;
+  width: 999px;
+  height: calc(100vh);
+}
+.letter-container {
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: flex-start;
+  width: 300px;
+  height: 260px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 1s ease;
+  margin-top: 40px;
+  margin-left: 33px;
+  flex-direction: column;
+  background: #fff;
+}
+.letter-container .words {
+  position: relative;
+  width: 150px;
+  right: -125px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.letter-container .words img {
+  width: 27px;
+  height: 27px;
+}
+.letter-container .words .detail {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+.letter-container:hover {
+  height: 290px;
+}
+.text {
+  display: block;
+  width: 300px;
+  position: absolute;
+  right: -25px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.pic-container {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.pic-container img {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.pin {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+}
+.pin::before {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b40800;
+  background-image: radial-gradient(at 60% 30%, #99e7ff, #1900ff 20%, #0300b4);
+  background-position: 20% 10%;
+  cursor: pointer;
+  pointer-events: none;
+  transform: scale(0.8);
+  box-shadow: -5px 10px 3px -8.5px #000, -1px 7px 12px -5px #000;
+  transition: all 0.3s ease;
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: 170px;
+}
+.stats svg {
+  width: 20px;
+  height: 20px;
+}
+.stats .button {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.stats .button svg {
+  margin-right: 5px;
+}
+.stats .button:hover svg path {
+  fill: red;
+}
+.stats .button .but-words {
+  font-size: 10px;
+  line-height: 14px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
